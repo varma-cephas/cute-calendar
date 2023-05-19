@@ -1,0 +1,104 @@
+@font-face {
+    font-family: LeagueSpartan;
+    src: url(assets/fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf);
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: LeagueSpartan;
+    line-height: 1.3;
+    background-image: url(assets/images/texture2.jpeg);
+}
+
+/* .entire-calendar{
+    border: 2px solid gold;
+} */
+
+.first-four-month{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.first-row-months{
+    display: flex;
+}
+
+.jan-month{
+    padding-right: 13.4rem;
+    /* padding-left: 10.8rem; */
+}
+
+.feb-month{
+    padding-right: 12.9rem;
+}
+.march-month{
+    /* border: 2px solid green; */
+    padding-right: 14rem;
+}
+
+/* .april-month{
+    border: 2px solid green;
+} */
+.jan{
+    display: flex;
+    gap: 1rem;
+}
+
+.jan-asset{
+    width: 19.3%;
+    /* border: 2px solid purple; */
+    padding-left: 10.8rem;
+}
+
+.jan-asset img{
+    width: 80%;
+    align-items: center;
+}
+
+
+.feb-asset{
+    width: 19.3%;
+    /* border: 2px solid purple; */
+}
+
+.feb-asset img{
+    width: 80%;
+    align-items: center;
+}
+
+
+.march-asset{
+    width: 19.3%;
+    /* border: 2px solid purple; */
+}
+
+.march-asset img{
+    width: 75%;
+    align-items: center;
+}
+
+.april-asset{
+    width: 19.3%;
+    /* border: 2px solid purple; */
+}
+
+.april-asset img{
+    width: 80%;
+    align-items: center;
+}
+
+.second-entire-calendar{
+    /* border: 2px solid skyblue; */
+    margin-top: 4rem;
+}
+
