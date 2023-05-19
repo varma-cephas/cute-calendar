@@ -49,9 +49,15 @@ body{
 /* .april-month{
     border: 2px solid green;
 } */
+
+
 .jan{
     display: flex;
     gap: 1rem;
+    border: 2px solid beige;
+    background: white;
+    padding: 0.1rem;
+    border-radius: 10px;
 }
 
 .jan-asset{
@@ -101,4 +107,87 @@ body{
     /* border: 2px solid skyblue; */
     margin-top: 4rem;
 }
+
+.jan-bday{
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: #F3B797;
+}
+
+
+.feb-bday{
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: #6F6F33;
+}
+
+.mar-bday{
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: #911D3A;
+}
+
+
+.apr-bday{
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: #EFA826;
+}
+
+
+.may-bday{
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: #F3A36E;
+}
+
+
+.jun-bday{
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: #FB6F10;
+}
+
+
+.jul-bday{
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: #B45A35;
+}
+
+
+.aug-bday{
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: #D12E20;
+}
+
+
+.sept-bday{
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: #0AB2A0;
+}
+
+
+.oct-bday{
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: #F0BE4D;
+}
+
+
+.nov-bday{
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: #C78F3E;
+}
+
+
+.dec-bday{
+    border: 4px solid white;
+    border-radius: 10px;
+    background-color: #97E2FF;
+}
+
 
