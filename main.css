@@ -195,4 +195,63 @@ body{
     background-color: #97E2FF;
 }
 
+.events{
+    display: flex;
+    align-items: center;
+    border: 2px solid #F3693B;
+    flex-flow: row wrap;
+    margin: 2rem 10rem 2rem 11rem;
+    background: #F8F8F8;
+    border-radius: 10px;
+}
 
+.events h2{
+    margin: 0;
+    padding: 0;
+    flex-basis: 100%;
+    /* border: 2px solid #0AB2A0; */
+    margin: 0.8em 0 0 1.3rem;
+    color: #774032;
+}
+
+
+.year-button{
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid purple; */
+    display: flex;
+    gap: 40rem;
+    width: 100%;
+    margin: 0 0 0 1.3rem;
+    align-items: center;
+}
+
+.select-country{
+    /* border: 2px solid #F3A36E; */
+    margin-top: 1rem;
+}
+
+.select-year{
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 0.5rem;
+    background: white;
+    font-weight: 500;
+}
+
+
+.add-event a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    border: 2px solid #F3693B;
+    background: #F3693B;
+    padding: 0.4rem 2rem 0.4rem 2rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.add-event a:hover{
+    background: #774032;
+    border: 2px solid #774032;
+}
