@@ -23,235 +23,256 @@ body{
     border: 2px solid gold;
 } */
 
-.first-four-month{
-    display: flex;
-    gap: 3rem;
-    justify-content: center;
-}
-
-.first-row-months{
-    display: flex;
-}
-
-.jan-month{
-    padding-right: 13.4rem;
-    padding: 0.7rem 0 0 0;
-    /* border: 2px solid goldenrod; */
-}
-
-.feb-month{
-    padding-right: 12.9rem;
-    padding: 0.7rem 0 0 0;
-}
-.march-month{
-    /* border: 2px solid green; */
-    padding-right: 14rem;
-    padding: 0.7rem 0 0 0;
-}
-
-.april-month{
-    /* border: 2px solid green; */
-    padding: 0.7rem 0 0 0;
-}
 
 
-.jan{
-    display: flex;
-    gap: 1rem;
-    border: 2px solid beige;
-    background: white;
-    padding: 0.1rem;
-    border-radius: 10px;
-}
-
-.jan-asset{
-    width: 19.7%;
-    /* border: 2px solid purple; */
-    padding-left: 10.8rem;
-}
-
-.jan-asset img{
-    width: 80%;
-    align-items: center;
-    /* margin-right: -40rem; */
-}
 
 
-.feb-asset{
-    width: 19.8%;
-    /* border: 2px solid purple; */
-}
-
-.feb-asset img{
-    width: 80%;
-    align-items: center;
-}
 
 
-.march-asset{
-    width: 20.8%;
-    /* border: 2px solid purple; */
-}
 
-.march-asset img{
-    width: 75%;
-    align-items: center;
-}
-
-.april-asset{
-    width: 19.3%;
-    /* border: 2px solid purple; */
-}
-
-.april-asset img{
-    width: 80%;
-    align-items: center;
-}
-
-.second-entire-calendar{
-    /* border: 2px solid skyblue; */
-    margin-top: 4rem;
-}
-
-.jan-bday{
-    border: 1px dotted white;
-    border-radius: 1px;
-    background-color: #F3B797;
-}
-
-
-.feb-bday{
-    border: 1px dotted white;
-    border-radius: 1px;
-    background-color: #6F6F33;
-}
-
-.mar-bday{
-    border: 1px dotted white;
-    border-radius: 1px;
-    background-color: #911D3A;
-}
-
-
-.apr-bday{
-    border: 1px dotted white;
-    border-radius: 1px;
-    background-color: #EFA826;
-}
-
-
-.may-bday{
-    border: 1px dotted white;
-    border-radius: 1px;
-    background-color: #F3A36E;
-}
-
-
-.jun-bday{
-    border: 1px dotted white;
-    border-radius: 1px;
-    background-color: #FB6F10;
-}
-
-
-.jul-bday{
-    border: 1px dotted white;
-    border-radius: 1px;
-    background-color: #B45A35;
-}
-
-
-.aug-bday{
-    border: 1px dotted white;
-    border-radius: 1px;
-    background-color: #D12E20;
-}
-
-
-.sept-bday{
-    border: 1px dotted white;
-    border-radius: 1px;
-    background-color: #0AB2A0;
-}
-
-
-.oct-bday{
-    border: 1px dotted white;
-    border-radius: 1px;
-    background-color: #F0BE4D;
-}
-
-
-.nov-bday{
-    border: 1px dotted white;
-    border-radius: 1px;
-    background-color: #C78F3E;
-}
-
-
-.dec-bday{
-    border: 1px dotted white;
-    border-radius: 1px;
-    background-color: #97E2FF;
-}
-
-.events{
-    display: flex;
-    align-items: center;
-    border: 2px solid #F3693B;
-    flex-flow: row wrap;
-    margin: 2rem 10rem 2rem 11rem;
-    background: #F8F8F8;
-    border-radius: 10px;
-}
-
-.events h2{
-    margin: 0;
-    padding: 0;
-    flex-basis: 100%;
-    /* border: 2px solid #0AB2A0; */
-    margin: 0.8em 0 0 1.3rem;
-    color: #774032;
-}
-
-
-.year-button{
-    margin: 0;
-    padding: 0;
-    /* border: 2px solid purple; */
-    display: flex;
-    gap: 40rem;
-    width: 100%;
-    margin: 0 0 0 1.3rem;
-    align-items: center;
-}
-
-.select-country{
-    /* border: 2px solid #F3A36E; */
-    margin-top: 1rem;
-}
 
 .select-year{
-    border: 2px solid white;
+    border: 2px solid #FFF5FE;
     border-radius: 4px;
     padding: 0.5rem;
-    background: white;
     font-weight: 500;
 }
 
+.select-event{
+    /* border: 2px solid gold; */
+    padding: 1rem 0 0 0;
+}
+
+.events{
+    border: 2px solid #F3693B;
+    padding: 0 1rem 0rem 1rem;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.year-button{
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .add-event a{
     text-decoration: none;
-    font-size: 1.2rem;
     color: white;
-    border: 2px solid #F3693B;
     background: #F3693B;
-    padding: 0.4rem 2rem 0.4rem 2rem;
-    font-weight: 600;
-    border-radius: 10px;
+    border: 2px solid #F3693B;
+    padding: 0.5rem 0.3rem 0.5rem 0.3rem;
+    border-radius: 3px;
 }
-
 .add-event a:hover{
     background: #774032;
     border: 2px solid #774032;
+}
+
+.events-section{
+    padding: 1rem;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 5px;
+    /* padding-bottom: 2rem; */
+}
+
+.barra-container h2{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #ff6411;
+}
+
+.january-container{
+    border: 2px solid #F3693B;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.february-container{
+    border: 2px solid #F3693B;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.february-container img{
+    width: 105%;
+}
+
+.february-container h2{
+    color: #d8aa2b;
+}
+
+.day-of-the-week{
+    padding-left: 1.5rem;
+    border: 2px solid #f1874e;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background: #F1E0C3;
+    color: #ad3b0b;
+    font-weight: 500;
+    border-radius: 2.5px;
+}
+
+.day{
+    border: 2px solid #f3e5db;
+    text-align: center;
+}
+.barra-container{
+    /* border: 2px solid maroon; */
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.february-container{
+    border: 2px solid #97E2FF;
+}
+
+.february-container .day-of-the-week{
+    border: 2px solid #d8aa2b;
+    background: #FABC31;
+}
+
+.february-container .day{
+    color: #233d2d;
+}
+
+
+.march-container img{
+    max-width: 95%;
+    /* border: 2px solid red; */
+    padding-left: 0.2rem;
+}
+
+.march-container .day-of-the-week{
+    /* border: 2px solid blue; */
+    background: #FCD2A2;
+    color: #3B2842;
+}
+
+.march-container{
+    border: 2px solid #6E6F32;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.april-container img{
+    max-width: 95%;
+    /* border: 2px solid red; */
+    padding-left: 0.2rem;
+}
+
+.april-container .day-of-the-week{
+    border: 2px solid #3b3a3a;
+    background: #f5f0eb;
+    color: #3B2842;
+}
+
+.april-container .day{
+    border: 2px solid #613421;
+}
+
+.april-container{
+    border: 2px solid #B35934;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.april-container h2{
+    color: #807f7f;
+}
+
+
+@media (max-width:315px) {
+    .year-button{
+        display: block;
+        padding: 0.5rem 0.3rem 0.5rem 0.3rem;
+    }
+
+    .events{
+    padding: 0 1rem 1rem 1rem;
+    }
+}
+
+@media (min-width: 800px) {
+    .events{
+        padding: 0 4rem 0 4rem;
+    }
+
+    .events-section{
+        padding: 2rem;
+    }
+
+    .add-event a{
+    padding: 0.5rem 1.3rem 0.5rem 1.3rem;
+    }
+
+    .march-container{
+        margin-bottom: 3rem;
+    }
+
+    .january-container{
+        margin-bottom: 4rem;
+    }
+
+    .february-container{
+        margin-bottom: 4rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .events{
+        padding: 0 7rem 0 7rem;
+    }
+
+    .add-event a{
+        padding: 0.5rem 2.3rem 0.5rem 2.3rem;
+        }
+
+    .barra-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0 3rem 0 3rem;
+        
+    }
+}
+
+@media (min-width: 1024px) {
+    .events{
+        padding: 0 10rem 0 10rem;
+    }
+
+    .events-section{
+        padding: 2rem;
+    }
+
+    .add-event a{
+        padding: 0.5rem 3.3rem 0.5rem 3.3rem;
+        }
+}
+
+
+@media (min-width: 1920px) {
+    .events{
+        padding: 0 10rem 0 10rem;
+    }
+
+    .events-section{
+        padding: 3rem;
+    }
+
+    .add-event a{
+        padding: 0.5rem 5.3rem 0.5rem 5.3rem;
+        }
 }
